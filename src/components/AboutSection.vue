@@ -1,8 +1,7 @@
-<template>
-    <!-- Nuestra Historia & Principios & About -->
+<template id="about">
     <div>
         <!-- Historia -->
-        <section id="history" class="py-16 bg-gray-100" data-aos="fade-up">
+        <section id="about" class="py-16 bg-gray-100" data-aos="fade-up">
             <div class="max-w-screen-lg mx-auto px-4 text-center mb-12" data-aos="fade-down">
                 <h2 class="text-4xl font-bold text-purple-700">Nuestra Historia</h2>
             </div>
@@ -56,47 +55,6 @@
             </div>
         </section>
 
-        <!-- About / Education -->
-        <section id="about" class="relative text-white mt-18 bg-[#111a3e] py-16" data-aos="fade-up">
-            <div class="absolute inset-x-0 top-0 h-64 bg-gradient-to-br from-primary via-secondary blur-2xl opacity-20">
-            </div>
-            <div class="max-w-screen-lg mx-auto px-4 xl:px-16 md:grid md:grid-cols-2 gap-8 items-center relative z-10">
-                <div data-aos="flip-right" class="space-y-8">
-                    <h2 class="text-4xl font-bold mb-8">My Education</h2>
-                    <div v-for="e in education" :key="e.id"
-                        class="flex items-center bg-[#111a3e] rounded-xl shadow-lg border border-[#1f1641] p-4">
-                        <img src="https://img.icons8.com/ios-glyphs/60/ffffff/graduation-cap--v1.png" alt=""
-                            class="w-12 h-12 mr-4" />
-                        <div>
-                            <h3
-                                class="text-xl font-semibold uppercase bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-                                {{ e.School }}</h3>
-                            <p>{{ e.program }} – {{ e.year }}</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="flip-right" class="space-y-8">
-                    <h2 class="text-4xl font-bold mb-4">More <span
-                            class="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">About</span>
-                        Me</h2>
-                    <p class="text-base lg:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit…</p>
-                    <div class="grid grid-cols-3 gap-4">
-                        <div class="p-3 bg-[#111a3e] rounded-xl shadow-lg border border-[#1f1641] text-center">
-                            <h3 class="text-3xl font-bold">+200</h3>
-                            <p class="text-gray-300">Happy Client</p>
-                        </div>
-                        <div class="p-3 bg-[#111a3e] rounded-xl shadow-lg border border-[#1f1641] text-center">
-                            <h3 class="text-3xl font-bold">+300</h3>
-                            <p class="text-gray-300">Projects</p>
-                        </div>
-                        <div class="p-3 bg-[#111a3e] rounded-xl shadow-lg border border-[#1f1641] text-center">
-                            <h3 class="text-3xl font-bold">+7</h3>
-                            <p class="text-gray-300">Years Experience</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </div>
 </template>
 
@@ -128,10 +86,6 @@ const principles = ref([
     { name: 'Estrategias Disruptivas', icon: disruptiveIcon }
 ])
 
-const education = ref([
-    { id: 1, School: 'school 1', program: 'Software Engineer', year: '2022' },
-    { id: 2, School: 'school 2', program: 'Software Engineer', year: '2020' }
-])
 </script>
 
 <style scoped>

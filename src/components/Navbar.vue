@@ -39,7 +39,7 @@ const Menu = ref([
     { name: 'Inicio', href: '#' },
     { name: '¿Quienes Somos?', href: '#about' },
     { name: 'Nuestros proyectos', href: '#projects' },
-    { name: 'Servicios', href: '#skills' },
+    { name: 'Servicios', href: '#services' },
     { name: 'Contact', href: '#contact' },
 ]);
 

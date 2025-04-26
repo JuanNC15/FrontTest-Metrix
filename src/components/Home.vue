@@ -41,7 +41,7 @@
                             class="border border-primary px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center text-primary overflow-hidden">
                             <span
                                 class="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-transparent border-2 border-primary"></span>
-                            <span class="relative flex items-center justify-center">Sobre nosotros</span>
+                            <span class="relative flex items-center justify-center" >Sobre nosotros</span>
                         </button>
                     </div>
                 </div>
